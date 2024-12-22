@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+.image{
+  background-image: url('/img/ghouse.png');
+  background-size: cover;
+}
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
